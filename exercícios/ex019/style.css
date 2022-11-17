@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*
+    HTML id -> CSS #
+    HTML class -> CSS .
+*/
+body {
+    background-color: #A5A692;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    text-align: center;
+    background-color: #025e73;
+    color: white;
+    text-shadow: #01262e 2px 2px 3px;
+    border-radius: 15px;
+    padding: 2px 0px 2px 0px;
+}
+
+h1 {
+    color: #025e73;
+}
+
+h2 {
+    color: #011F26;
+}
+
+.basico{
+    background-color: #b2f21b;
+    color: white;
+    border-radius: 5px;
+    text-shadow: black 1px 1px 2px;
+}
+
+.intermediario{
+    background-color: #F2A71B;
+    color: white;
+    border-radius: 5px;
+    text-shadow: black 1px 1px 2px;
+}
+
+.avancado{
+    background-color: #f2581b;
+    color: white;
+    border-radius: 5px;
+    text-shadow: black 1px 1px 2px;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ff.ico" type="image/x-icon">
+    <title>Grouping tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        body {
+            background-image: linear-gradient(to bottom,#36a2fa 75%, white);
+            background-attachment: fixed;
+            font-family: 'Roboto', sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: #F2C335;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 7px;
+            box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.363);
+        }
+
+        main {
+            background-color: #F2C335;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px 0px;
+            box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.363);
+        }
+
+        footer {
+            background-color: #9FD923;
+            color: white;
+            font-weight: 400;
+            text-align: center;
+            margin: 0px;
+            padding: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: #73cce2;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #0D65D9;
+            text-align: right;
+        }
+
+        nav {
+            background-color: #0D65D9;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px #00000060;
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        #assuntos > a{
+            color: black;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        #assuntos > a:hover {
+            text-decoration: underline;
+            font-weight: 500;
+        }
+
+        strong {
+            display: inline;
+            color: #ffae00;
+            font-weight: bold;
+            font-size: 27px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Animes<strong>&#10025;&#10025;&#10025;&#10025;&#10025;</strong></h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <a href="#">Animes</a>
+            <a href="#">Filmes</a>
+            <a href="#">Séries</a>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Quando volta HunterXHunter?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eaque natus labore magnam accusantium! Impedit, in quasi! Nam consequuntur animi, quidem odio, porro quibusdam non itaque ipsam, dolorum voluptatum iusto.</p>
+                <aside>
+                    Artigo escrito por Lorem
+                </aside>
+            </article>
+                <article>
+                    <h2>Por que esse site lembra Dragon Ball?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium modi eveniet commodi, nobis laboriosam, odit omnis deserunt error totam obcaecati. Excepturi unde laboriosam sequi dicta harum natus. Incidunt, ad!</p>
+                <aside>
+                    Artigo escrito por Lorem
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Filipe ft. CursoEmVídeo<sup>&copy;</sup></p>
+    </footer>
+</body>
+</html>
