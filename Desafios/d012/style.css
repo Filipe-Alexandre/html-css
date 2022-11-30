@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-titulo: "Merienda", cursive;
+    --fonte-corpo: 'Kalam', cursive;
+    --fonte-link: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: lightskyblue;
+    font-family: var(--fonte-link);
+    font-weight: 400;
+}
+
+header {
+    background-image: linear-gradient(to bottom, dodgerblue 55%, white);
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px 0px 50px 0px;
+    font-variant: small-caps;
+    font-family: var(--fonte-titulo);
+    font-weight: bolder;
+    font-size: 10vw;
+    text-shadow: 2px 2px 10px #00000080;
+}
+
+header > p {
+    padding-bottom: 50px;
+    color: transparent;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 0px 10vh 30px;
+    line-height: 2em;
+    font-family: var(--fonte-corpo);
+    font-size: 4.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: #16bcf3;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px #00000080;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    background-color: #000000b3;
+    display: inline-block;
+    padding: 5px 5px 2em 5px;
+    text-shadow: 1px 1px 0px #00000080;
+}
+
+section#img01 {
+    background-image: url(imagens/biblia01.jpg);
+    background-position: center center;
+}
+
+section#img02 {
+    background-image: url(imagens/maria01.png);
+    background-position: right center;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, white 20%, dodgerblue);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+footer p.link, footer p.link>a {
+    color: dodgerblue;
+}
