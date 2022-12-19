@@ -54,6 +54,7 @@ main {
 
     height: 604px;
     width: 286px;
+    border-radius: 10px;
 }
 
 #apps {
