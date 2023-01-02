@@ -68,9 +68,9 @@ main {
 }
 
 .campo {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     display: block;
-    border: 2px solid var(--cor3);
+    border: 2px solid var(--cor2);
     border-radius: 8px;
     width: 100%;
     height: 40px;
